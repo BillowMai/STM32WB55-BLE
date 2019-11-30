@@ -1,0 +1,33 @@
+#IAR
+*.out
+*.map
+*.pbd
+*.pbd.*
+*.o
+*.pbi
+*.pbi.*
+*.pbw
+*.xcl
+*.xml
+
+#IAR Debug
+*.reggroups
+*.jlink
+*.bat
+*.ps1
+*.crun
+*.dbgdt
+*.dnx
+*.sim
+
+
+#Other
+*.html
+
+#source insight
+locat-node-iar.si4project
+Node.si4project
+
+
+
+
