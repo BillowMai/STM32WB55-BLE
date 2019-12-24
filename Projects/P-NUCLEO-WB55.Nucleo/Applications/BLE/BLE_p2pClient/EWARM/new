@@ -1,0 +1,5 @@
+<state>\$PROJ_DIR\$(.*)<\/state>
+
+<name>\$PROJ_DIR\$(.*)<\/name>
+
+

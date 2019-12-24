@@ -163,7 +163,7 @@ static void SystemPower_Config( void )
   return;
 }
 
-static void appe_Tl_Init( void )
+static void appe_Tl_Init( void )  ///initialize all  transport layers
 {
   TL_MM_Config_t tl_mm_config;
   SHCI_TL_HciInitConf_t SHci_Tl_Init_Conf;

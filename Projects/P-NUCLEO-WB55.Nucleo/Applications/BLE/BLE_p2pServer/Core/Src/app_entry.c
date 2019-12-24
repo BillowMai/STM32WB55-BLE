@@ -296,7 +296,7 @@ void UTIL_SEQ_EvtIdle( UTIL_SEQ_bm_t task_id_bm, UTIL_SEQ_bm_t evt_waited_bm )
   UTIL_SEQ_Run( UTIL_SEQ_DEFAULT );
 }
 
-void shci_notify_asynch_evt(void* pdata)
+void shci_notify_asynch_evt(void* pdata)///->call shci_user_evt_proc()
 {
   UTIL_SEQ_SetTask( 1<<CFG_TASK_SYSTEM_HCI_ASYNCH_EVT_ID, CFG_SCH_PRIO_0);
   return;

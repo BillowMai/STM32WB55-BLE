@@ -364,7 +364,7 @@ void P2PS_APP_SW1_Button_Action(void)
  *
  *************************************************************/
 /* USER CODE BEGIN FD_LOCAL_FUNCTIONS*/
-void P2PS_Send_Notification(void)
+void P2PS_Send_Notification(void)   ///be called when SW1 button was pressed
 {
  
   if(P2P_Server_App_Context.ButtonControl.ButtonStatus == 0x00){

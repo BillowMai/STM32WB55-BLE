@@ -186,7 +186,7 @@ void HW_IPCC_BLE_Init( void )
   LL_C1_IPCC_EnableReceiveChannel( IPCC, HW_IPCC_BLE_EVENT_CHANNEL );
 
   return;
-}
+} 
 
 void HW_IPCC_BLE_SendCmd( void )
 {

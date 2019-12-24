@@ -523,8 +523,8 @@ typedef enum
 typedef enum
 {
     CFG_IDLEEVT_HCI_CMD_EVT_RSP_ID,
-    CFG_IDLEEVT_SYSTEM_HCI_CMD_EVT_RSP_ID,
-} CFG_IdleEvt_Id_t;
+    CFG_IDLEEVT_SYSTEM_HCI_CMD_EVT_RSP_ID, ///if cmd, cup2        can only respond ack
+} CFG_IdleEvt_Id_t; 
 
 /******************************************************************************
  * LOW POWER

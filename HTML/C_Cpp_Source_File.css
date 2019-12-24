@@ -1,0 +1,265 @@
+.Default_Text {font-family: "Consolas"; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Number {font-family: "Courier New"; color: #ffcd22; background-color: #000000; font-size: 14pt }
+
+.Operator {font-family: "Consolas"; color: #e8e2b7; background-color: #000000; font-size: 14pt }
+
+.Delimiter {font-family: "Consolas"; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Comment {font-family: "Verdana"; color: #99a38a; background-color: #000000; font-size: 14pt }
+
+.String {font-family: "Consolas"; color: #ec7600; background-color: #000000; font-size: 14pt }
+
+.Keyword {font-family: "Consolas"; color: #93c763; background-color: #000000; font-size: 14pt }
+
+.Control {font-family: "Consolas"; font-weight: bold; color: #93c763; background-color: #000000; font-size: 14pt }
+
+.Special {font-family: "Consolas"; font-weight: bold; font-style: italic; color: #800080; background-color: #000000; font-size: 14pt }
+
+.Boolean {font-family: "Consolas"; color: #d43166; background-color: #000000; font-size: 17pt }
+
+.Debug {font-family: "Consolas"; font-style: italic; color: #ff0000; background-color: #000000; font-size: 14pt }
+
+.Null_Value {font-family: "Consolas"; color: #ff0000; background-color: #000000; font-size: 14pt }
+
+.System {font-family: "Consolas"; color: #008000; background-color: #000000; font-size: 14pt }
+
+.Declaration {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Ref_To_Local {font-family: "Consolas"; color: #66c1c1; background-color: #000000; font-size: 14pt }
+
+.Reference {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Directive {font-family: "Consolas"; font-weight: bold; color: #42f0a6; background-color: #000000; font-size: 14pt }
+
+.Line_Number {font-family: "Courier New"; color: #9b9b9b; background-color: #000000; font-size: 14pt }
+
+.Highlight {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #d43166; font-size: 14pt }
+
+.Symbol_Characters {font-family: "Microsoft Sans Serif"; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Declare_Template_Parameter {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Parameter {font-family: "Consolas"; font-weight: bold; color: #66c1c1; background-color: #000000; font-size: 14pt }
+
+.Declare_Template {font-family: "Consolas"; font-weight: bold; color: #0080ff; background-color: #000000; font-size: 15pt }
+
+.Declare_Package {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Template {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Package {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Template_Parameter {font-family: "Consolas"; font-weight: bold; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Selection {font-family: "Consolas"; color: #ffffff; background-color: #6a6a6a; font-size: 14pt }
+
+.Declare_Namespace {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Namespace {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Declare_Local {font-family: "Consolas"; color: #66c1c1; background-color: #000000; font-size: 14pt }
+
+.Declare_Member {font-family: "Consolas"; font-weight: bold; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Declare_Method {font-family: "Consolas"; font-weight: bold; color: #0080ff; background-color: #000000; font-size: 15pt }
+
+.Declare_Method_Inline {font-family: "Consolas"; font-weight: bold; color: #0080ff; background-color: #000000; font-size: 15pt }
+
+.Declare_Function {font-family: "Consolas"; font-weight: bold; color: #0080ff; background-color: #000000; font-size: 15pt }
+
+.Declare_Macro {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Declare_Struct {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 17pt }
+
+.Declare_Union {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 17pt }
+
+.Declare_Typedef {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 17pt }
+
+.Declare_Class {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 17pt }
+
+.Declare_Var {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Declare_Constant {font-family: "Consolas"; color: #d43166; background-color: #000000; font-size: 17pt }
+
+.Declare_Enum {font-family: "Consolas"; color: #d43166; background-color: #000000; font-size: 17pt }
+
+.Declare_Enum_Const {font-family: "Consolas"; color: #d43166; background-color: #000000; font-size: 17pt }
+
+.Declare_Edit_Macro {font-family: "Consolas"; font-weight: bold; color: #0080ff; background-color: #000000; font-size: 15pt }
+
+.Declare_Prototype {font-family: "Consolas"; font-weight: bold; color: #0080ff; background-color: #000000; font-size: 15pt }
+
+.Preprocessor {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Search_Result_Heading {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Label {font-family: "Consolas"; font-weight: bold; color: #ff0000; background-color: #000000; font-size: 16pt }
+
+.Declare_Interface {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 17pt }
+
+.Declare_Resource {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.File {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Declare_Custom_Tag {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Func {font-family: "Consolas"; color: #0080ff; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Macro {font-family: "Consolas"; color: #0080ff; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Struct {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Union {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Typedef {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Global_Var {font-family: "Consolas"; font-weight: bold; font-style: italic; color: #09ffff; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Const {font-family: "Consolas"; color: #d43166; background-color: #000000; font-size: 17pt }
+
+.Ref_to_Enum {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Custom {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_EdMacro {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Class {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Method {font-family: "Consolas"; color: #0080ff; background-color: #000000; font-size: 14pt }
+
+.Ref_to_EnumConst {font-family: "Consolas"; color: #d43166; background-color: #000000; font-size: 17pt }
+
+.Ref_to_Proto {font-family: "Consolas"; color: #0080ff; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Preproc {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Search {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Label {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Member {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Interface {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Resource {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_File {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Comment_Heading_1 {font-family: "Arial"; font-weight: bold; color: #99a38a; background-color: #000000; font-size: 21pt }
+
+.Comment_Heading_2 {font-family: "Arial"; font-weight: bold; color: #99a38a; background-color: #000000; font-size: 18pt }
+
+.Comment_Heading_3 {font-family: "Arial"; font-weight: bold; color: #99a38a; background-color: #000000; font-size: 17pt }
+
+.Comment_Heading_4 {font-family: "Arial"; font-weight: bold; color: #99a38a; background-color: #000000; font-size: 14pt }
+
+.Comment_Right {font-family: "Verdana"; font-style: italic; color: #99a38a; background-color: #000000; font-size: 13pt }
+
+.Ref_to_Base_Class {font-family: "Consolas"; color: #8cb4b4; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Inline_Type {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Inactive_Code {font-family: "Consolas"; color: #808080; background-color: #000000; font-size: 14pt }
+
+.Declare_Parameter {font-family: "Consolas"; font-weight: bold; color: #66c1c1; background-color: #000000; font-size: 14pt }
+
+.Auto_Annotations {font-family: "Verdana"; color: #808080; background-color: #000000; font-size: 13pt }
+
+.HTML_or_XML_Element {font-family: "Consolas"; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.HTML_Title {font-family: "Consolas"; font-weight: bold; color: #ff0000; background-color: #000000; font-size: 18pt }
+
+.Perl_POD {font-family: "Consolas"; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Perl_End_Script {font-family: "Consolas"; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Declare_Method_Prototype {font-family: "Consolas"; font-weight: bold; color: #0080ff; background-color: #000000; font-size: 15pt }
+
+.Ref_to_Method_Prototype {font-family: "Consolas"; color: #0080ff; background-color: #000000; font-size: 14pt }
+
+.Comment_To_Do {font-family: "Arial"; font-weight: bold; color: #99a38a; background-color: #ffff00; font-size: 17pt }
+
+.Ref_to_IDL_Module {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_IDL_Library {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Declare_IDL_Module {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 21pt }
+
+.Declare_IDL_Library {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 21pt }
+
+.Comment_Single_Line {font-family: "Consolas"; color: #99a38a; background-color: #000000; font-size: 14pt }
+
+.Comment_Multi_Line {font-family: "Cambria"; color: #99a38a; background-color: #000000; font-size: 14pt }
+
+.Parentheses {font-family: "Consolas"; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.HTML_Body_Text {font-family: "Consolas"; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.HTML_Tag {font-family: "Consolas"; color: #800080; background-color: #000000; font-size: 14pt }
+
+.Standard_Property {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Standard_Function {font-family: "Consolas"; color: #0080ff; background-color: #000000; font-size: 14pt }
+
+.Standard_Object {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Declare_CSS_Selector {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 17pt }
+
+.Declare_C#_Property {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Ref_to_C#_Property {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Mono_Font_View {font-family: "Courier New"; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Declare_C#_Event {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Declare_C#_Indexer {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Ref_to_C#_Event {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_C#_Indexer {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Alias {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Declare_Alias {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.CDATA_Section {font-family: "Consolas"; color: #808080; background-color: #000000; font-size: 14pt }
+
+.Declare_Type_Parameter {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Ref_to_Type_Parameter {font-family: "Consolas"; font-weight: bold; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Snippet_Input_Field {font-family: "Consolas"; font-weight: bold; color: #000000; background-color: #a0e1ff; font-size: 14pt }
+
+.Register {font-family: "Consolas"; font-weight: bold; color: #008000; background-color: #000000; font-size: 14pt }
+
+.Python_Doc_String {font-family: "Consolas"; font-style: italic; color: #000080; background-color: #000000; font-size: 14pt }
+
+.Instruction {font-family: "Consolas"; font-weight: bold; color: #93c763; background-color: #000000; font-size: 14pt }
+
+.Reference_Highlight {font-family: "Consolas"; color: #000000; background-color: #aae1ff; font-size: 14pt }
+
+.Declare_VHDL_Entity {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 20pt }
+
+.Declare_VHDL_Architecture {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 20pt }
+
+.Declare_VHDL_Component {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Declare_VHDL_Process {font-family: "Consolas"; font-weight: bold; color: #0080ff; background-color: #000000; font-size: 15pt }
+
+.Declare_VHDL_Config {font-family: "Consolas"; font-weight: bold; color: #ffffff; background-color: #000000; font-size: 14pt }
+
+.Ref_to_VHDL_Entity {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_VHDL_Architecture {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_VHDL_Component {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_VHDL_Process {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+.Ref_to_VHDL_Config {font-family: "Consolas"; color: #678c9d; background-color: #000000; font-size: 14pt }
+
+a:link {text-decoration: none}
+a:visited { text-decoration: none}
+a:hover {text-decoration: underline}

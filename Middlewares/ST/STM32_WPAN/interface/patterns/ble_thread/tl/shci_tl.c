@@ -115,14 +115,14 @@ void shci_user_evt_proc(void)
 
   if((LST_is_empty(&SHciAsynchEventQueue) == FALSE) && (SHCI_TL_UserEventFlow != SHCI_TL_UserEventFlow_Disable))
   {
-    shci_notify_asynch_evt((void*) &SHciAsynchEventQueue);
+    shci_notify_asynch_evt((void*) &SHciAsynchEventQueue); ///whlie: shci_notify_asynch_evt -> shci_user_evt_proc
   }
 
 
   return;
 }
 
-void shci_resume_flow( void )
+void shci_resume_flow( void ) ///not be used
 {
   SHCI_TL_UserEventFlow = SHCI_TL_UserEventFlow_Enable;
 

@@ -507,8 +507,8 @@ typedef enum
  */
 typedef enum
 {
-  CFG_IDLEEVT_HCI_CMD_EVT_RSP_ID,
-  CFG_IDLEEVT_SYSTEM_HCI_CMD_EVT_RSP_ID,
+  CFG_IDLEEVT_HCI_CMD_EVT_RSP_ID,           //mcu1-->2
+  CFG_IDLEEVT_SYSTEM_HCI_CMD_EVT_RSP_ID,    //mcu1<--2
 } CFG_IdleEvt_Id_t;
 
 /******************************************************************************
