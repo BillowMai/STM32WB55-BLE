@@ -61,7 +61,7 @@ extern "C" {
 
 /* Exported types ------------------------------------------------------------*/
 /**< Packet header */
-typedef PACKED_STRUCT
+typedef struct
 {
   uint32_t *next;
   uint32_t *prev;
@@ -74,7 +74,7 @@ typedef PACKED_STRUCT
 /**
  * This the payload of TL_Evt_t for a command status event
  */
-typedef PACKED_STRUCT
+typedef struct
 {
   uint8_t   status;
   uint8_t   numcmd;
@@ -84,7 +84,7 @@ typedef PACKED_STRUCT
 /**
  * This the payload of TL_Evt_t for a command complete event
  */
-typedef PACKED_STRUCT
+typedef struct
 {
   uint8_t   numcmd;
   uint16_t  cmdcode;
@@ -94,20 +94,20 @@ typedef PACKED_STRUCT
 /**
  * This the payload of TL_Evt_t for an asynchronous event
  */
-typedef PACKED_STRUCT
+typedef struct
 {
   uint16_t  subevtcode;
   uint8_t   payload[1];
 } TL_AsynchEvt_t;
 
-typedef PACKED_STRUCT
+typedef struct
 {
   uint8_t   evtcode;
   uint8_t   plen;
   uint8_t   payload[1];
 } TL_Evt_t;
 
-typedef PACKED_STRUCT
+typedef struct
 {
   uint8_t   type;
   TL_Evt_t  evt;
@@ -121,7 +121,7 @@ typedef PACKED_STRUCT
  * include the header and shall use TL_EvtPacket_t format. Only the command response format on the
  * system channel is different.
  */
-typedef PACKED_STRUCT
+typedef struct
 {
   TL_PacketHeader_t  header;
   TL_EvtSerial_t     evtserial;
@@ -131,20 +131,20 @@ typedef PACKED_STRUCT
  * Command type
  */
 
-typedef PACKED_STRUCT
+typedef struct
 {
   uint16_t   cmdcode;
   uint8_t   plen;
   uint8_t   payload[255];
 } TL_Cmd_t;
 
-typedef PACKED_STRUCT
+typedef struct
 {
   uint8_t   type;
   TL_Cmd_t  cmd;
 } TL_CmdSerial_t;
 
-typedef PACKED_STRUCT
+typedef struct
 {
   TL_PacketHeader_t  header;
   TL_CmdSerial_t     cmdserial;
@@ -153,7 +153,7 @@ typedef PACKED_STRUCT
 /*****************************************************************************************
  * HCI ACL DATA type
  */
-typedef PACKED_STRUCT
+typedef struct
 {
   uint8_t   type;
   uint16_t  handle;
@@ -161,7 +161,7 @@ typedef PACKED_STRUCT
   uint8_t   acl_data[1];
 } TL_AclDataSerial_t;
 
-typedef PACKED_STRUCT
+typedef struct
 {
   TL_PacketHeader_t  header;
   TL_AclDataSerial_t   AclDataSerial;

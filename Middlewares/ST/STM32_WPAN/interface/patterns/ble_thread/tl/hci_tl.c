@@ -41,10 +41,14 @@
 /**
  * START of Section BLE_DRIVER_CONTEXT
  */
-PLACE_IN_SECTION("BLE_DRIVER_CONTEXT") static volatile uint8_t hci_timer_id;
-PLACE_IN_SECTION("BLE_DRIVER_CONTEXT") static tListNode HciAsynchEventQueue;
-PLACE_IN_SECTION("BLE_DRIVER_CONTEXT") static TL_CmdPacket_t *pCmdBuffer;
-PLACE_IN_SECTION("BLE_DRIVER_CONTEXT") HCI_TL_UserEventFlowStatus_t UserEventFlow;
+PLACE_IN_SECTION("BLE_DRIVER_CONTEXT") ;
+static volatile uint8_t hci_timer_id;
+PLACE_IN_SECTION("BLE_DRIVER_CONTEXT") ;
+static tListNode HciAsynchEventQueue;
+PLACE_IN_SECTION("BLE_DRIVER_CONTEXT") ;
+static TL_CmdPacket_t *pCmdBuffer;
+PLACE_IN_SECTION("BLE_DRIVER_CONTEXT") ;
+HCI_TL_UserEventFlowStatus_t UserEventFlow;
 /**
  * END of Section BLE_DRIVER_CONTEXT
  */

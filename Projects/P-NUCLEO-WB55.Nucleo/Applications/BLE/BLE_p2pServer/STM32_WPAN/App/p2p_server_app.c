@@ -69,7 +69,8 @@ typedef struct
  * START of Section BLE_APP_CONTEXT
  */
 
-PLACE_IN_SECTION("BLE_APP_CONTEXT") static P2P_Server_App_Context_t P2P_Server_App_Context;
+//PLACE_IN_SECTION("BLE_APP_CONTEXT") static P2P_Server_App_Context_t P2P_Server_App_Context;
+static P2P_Server_App_Context_t P2P_Server_App_Context;
 
 /**
  * END of Section BLE_APP_CONTEXT
@@ -368,7 +369,7 @@ void P2PS_Send_Notification(void)   ///be called when SW1 button was pressed
 {
  
   if(P2P_Server_App_Context.ButtonControl.ButtonStatus == 0x00){
-    P2P_Server_App_Context.ButtonControl.ButtonStatus=0x01;
+    P2P_Server_App_Context.ButtonControl.ButtonStatus=0x01; 
   } else {
     P2P_Server_App_Context.ButtonControl.ButtonStatus=0x00;
   }

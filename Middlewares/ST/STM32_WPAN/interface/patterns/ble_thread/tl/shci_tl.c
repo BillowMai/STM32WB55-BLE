@@ -68,7 +68,8 @@ void shci_init(void(* UserEvtRx)(void* pData), void* pConf)
   return;
 }
 
-void shci_user_evt_proc(void)
+//接收CPU2 EVT调用，检查LST队列是否有新事件，并处理
+void shci_user_evt_proc(void) 
 {
   TL_EvtPacket_t *phcievtbuffer;
   tSHCI_UserEvtRxParam UserEvtRxParam;

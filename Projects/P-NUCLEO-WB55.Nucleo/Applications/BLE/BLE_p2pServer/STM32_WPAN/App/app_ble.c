@@ -1167,7 +1167,8 @@ void hci_cmd_resp_wait(uint32_t timeout)
   return;
 }
 
-static void BLE_UserEvtRx( void * pPayload )
+//处理接收到CPU2的User Evt事件
+static void BLE_UserEvtRx( void * pPayload ) 
 {
   SVCCTL_UserEvtFlowStatus_t svctl_return_status;
   tHCI_UserEvtRxParam *pParam;

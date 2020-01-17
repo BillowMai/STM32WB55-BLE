@@ -64,7 +64,8 @@ static const uint8_t BM_REQ_CHAR_UUID[2] = {0x11, 0xFE};
 /**
  * START of Section BLE_DRIVER_CONTEXT
  */
-PLACE_IN_SECTION("BLE_DRIVER_CONTEXT") static PeerToPeerContext_t aPeerToPeerContext;
+//PLACE_IN_SECTION("BLE_DRIVER_CONTEXT")
+static PeerToPeerContext_t aPeerToPeerContext;
 
 /**
  * END of Section BLE_DRIVER_CONTEXT

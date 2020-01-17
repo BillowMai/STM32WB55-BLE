@@ -32,23 +32,37 @@
 /* Private variables ---------------------------------------------------------*/
 
 /**< reference table */
-PLACE_IN_SECTION("MAPPING_TABLE") static volatile MB_RefTable_t TL_RefTable;
-PLACE_IN_SECTION("MB_MEM1") ALIGN(4) static MB_DeviceInfoTable_t TL_DeviceInfoTable;
-PLACE_IN_SECTION("MB_MEM1") ALIGN(4) static MB_BleTable_t TL_BleTable;
-PLACE_IN_SECTION("MB_MEM1") ALIGN(4) static MB_ThreadTable_t TL_ThreadTable;
-PLACE_IN_SECTION("MB_MEM1") ALIGN(4) static MB_LldTestsTable_t TL_LldTestsTable;
-PLACE_IN_SECTION("MB_MEM1") ALIGN(4) static MB_SysTable_t TL_SysTable;
-PLACE_IN_SECTION("MB_MEM1") ALIGN(4) static MB_MemManagerTable_t TL_MemManagerTable;
-PLACE_IN_SECTION("MB_MEM1") ALIGN(4) static MB_TracesTable_t TL_TracesTable;
-PLACE_IN_SECTION("MB_MEM1") ALIGN(4) static MB_Mac_802_15_4_t TL_Mac_802_15_4_Table;
-PLACE_IN_SECTION("MB_MEM1") ALIGN(4) static MB_ZigbeeTable_t TL_Zigbee_Table;
+PLACE_IN_SECTION("MAPPING_TABLE") ;
+static volatile MB_RefTable_t TL_RefTable;
+PLACE_IN_SECTION("MB_MEM1") ALIGN(4);
+static MB_DeviceInfoTable_t TL_DeviceInfoTable;
+PLACE_IN_SECTION("MB_MEM1") ALIGN(4);
+static MB_BleTable_t TL_BleTable;
+PLACE_IN_SECTION("MB_MEM1") ALIGN(4);
+static MB_ThreadTable_t TL_ThreadTable;
+PLACE_IN_SECTION("MB_MEM1") ALIGN(4) ;
+static MB_LldTestsTable_t TL_LldTestsTable;
+PLACE_IN_SECTION("MB_MEM1") ALIGN(4) ;
+static MB_SysTable_t TL_SysTable;
+PLACE_IN_SECTION("MB_MEM1") ALIGN(4);
+static MB_MemManagerTable_t TL_MemManagerTable;
+PLACE_IN_SECTION("MB_MEM1") ALIGN(4);
+static MB_TracesTable_t TL_TracesTable;
+PLACE_IN_SECTION("MB_MEM1") ALIGN(4) ;
+static MB_Mac_802_15_4_t TL_Mac_802_15_4_Table;
+PLACE_IN_SECTION("MB_MEM1") ALIGN(4) ;
+static MB_ZigbeeTable_t TL_Zigbee_Table;
 
 /**< tables */
-PLACE_IN_SECTION("MB_MEM1") ALIGN(4) static tListNode  FreeBufQueue;
-PLACE_IN_SECTION("MB_MEM1") ALIGN(4) static tListNode  TracesEvtQueue;
-PLACE_IN_SECTION("MB_MEM2") ALIGN(4) static uint8_t    CsBuffer[sizeof(TL_PacketHeader_t) + TL_EVT_HDR_SIZE + sizeof(TL_CsEvt_t)];
-PLACE_IN_SECTION("MB_MEM2") ALIGN(4) static tListNode  EvtQueue;
-PLACE_IN_SECTION("MB_MEM2") ALIGN(4) static tListNode  SystemEvtQueue;
+PLACE_IN_SECTION("MB_MEM1") ALIGN(4) ;
+static tListNode  FreeBufQueue;
+PLACE_IN_SECTION("MB_MEM1") ALIGN(4) ;
+static tListNode  TracesEvtQueue;
+PLACE_IN_SECTION("MB_MEM2") ALIGN(4) ;
+static uint8_t    CsBuffer[sizeof(TL_PacketHeader_t) + TL_EVT_HDR_SIZE + sizeof(TL_CsEvt_t)];
+PLACE_IN_SECTION("MB_MEM2") ALIGN(4) ;
+static tListNode  EvtQueue;
+static tListNode  SystemEvtQueue;
 
 
 static tListNode  LocalFreeBufQueue;
